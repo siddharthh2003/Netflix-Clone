@@ -258,6 +258,11 @@ footer .button1{
 }
 
 @media screen and (max-width:800px) {
+
+    .section, .faq, footer{
+        max-width: 75vw;
+    }
+
     .main nav {
         width: 90vw;
     }
@@ -304,4 +309,61 @@ footer .button1{
 }
 
 @media screen and (max-width:450px){
+
+    .main nav {
+        height: 7vh;
+    }
+    nav img {
+        width: 110px;
+    }
+    nav span{
+        gap: 10px;
+    }
+    nav .button1 {
+        font-size: 14px;
+        padding: 2px 10px;
+    }
+    nav .button2 {
+        font-size: 14px;
+        padding: 2px 10px;
+    }
+    
+    .hero> :nth-child(1) {
+        font-size: 25px;
+    }
+    .hero> :nth-child(2) {
+        font-size: 20px;
+    }
+    .hero> :nth-child(3) {
+        font-size: 15px;
+    }
+
+    .hero> :nth-child(4) .button3{
+        width: 130px;
+    }
+    
+    .secText :nth-child(1) {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .secText :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .section .secMedia img {
+        width: 350px;
+    }
+    .section .secMedia video {
+        width: 305px;
+        top: 45px;
+    }
+
+    .faq h2 {
+        font-size: 28px;
+    }
+
+    .faq .q {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
 }
